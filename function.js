@@ -56,3 +56,77 @@
 // function printinfo(){
 //     console.log("horw")
 // }
+
+// ssh
+
+//3. function express or an0nymous function
+// const add=function(){
+//     console.log("hello how are you ?")
+// }
+// add()
+
+// 4. immediateluy invoked function expression (IIFE) : a function that id executed immediately after some operation is completed
+// (
+//     function(){
+//         console.log("oho")
+//     }
+// )();
+
+// 5. callback functions
+// function a(){
+//     console.log("in a")
+//     function b(){
+//         console.log(" in b")
+//     }
+// }
+// a();
+
+// if we need to call the fuction out of the scope
+// function a(){
+//     console.log("in a")
+//     function b(){
+//         console.log(" in b")
+//     }
+//     return b;
+// }
+// let x=a();
+// x();
+
+// let first=()=>{
+//     console.log("HI i am first");
+// };
+// const outer=( fn)=>{
+//     console.log("Hi i am outer")
+//     fn();
+// };
+// outer(first);
+
+// const outer=( fn)=>{
+//     console.log("Hi i am outer")
+//     fn();
+// };
+// outer(()=>{
+//     console.log("HI i am first");
+// });
+
+// write a function that take a function and a number , and write code in such way that given function that will say the passed number is odd or even.
+// const oddeven=(a)=>{
+// if(a%2==0){
+//     console.log(a +' is even')
+// }
+// else{
+//     console.log(a +' is odd')
+// }
+// }
+// const fun=(fn,b)=>{
+//     fn(b);
+// }
+// fun(oddeven,19)
+
+// default parameter
+// function here(a=3,b=1,c=2){
+//     console.log(a,b,c)
+// }
+// here(1,2)
+// here( undefined,undefined,1)
+// 6. Async funtion
