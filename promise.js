@@ -80,3 +80,23 @@
 //     }
 // }
 // getrecipes()
+
+// object and array destucting
+// const user={
+//     name:"ram",
+//     age: 20
+// }
+// console.log(user.name)
+// console.log(user.age)
+
+// const {name,age}=user
+// console.log(name)
+// console.log(age)
+// let arr=[1,2,3,4,5,6]
+// let [a,b,c,d,e,f]=arr
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// console.log(d)
+// console.log(e)
+// console.log(f)
